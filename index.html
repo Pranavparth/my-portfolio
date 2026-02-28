@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Parthasarathy - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Animation Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="gradient-text">&lt;Pranav Parthasarathy /&gt;</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Pranav Parthasarathy</h1>
+                <h2 class="role typing-text"></h2>
+                <p class="bio">
+                    I build intelligent systems and turn raw data into actionable insights.
+                    Specializing in Artificial Intelligence, Machine Learning, Generative AI, and Data Analytics.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="https://drive.google.com/file/d/1gNDxLhmwtcHpVEL63EmIJdbVv8WKQked/view?usp=sharing"
+                        class="btn-secondary">Download Resume</a> <!-- Replace # with resume link -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section reveal">
+            <h2 class="section-title">01. <span>About Me</span></h2>
+            <div class="about-content grid-2-col">
+                <div class="about-text">
+                    <p>
+                        Hello! My name is Pranav Parthasarathy and I'm passionate about building intelligent systems and
+                        turning
+                        complex data into actionable insights. My journey into tech started with developing full-stack
+                        applications, but my curiosity quickly led me to the underlying data that powered those apps.
+                        This drove me to pursue a Master's in Data Analytics at The George Washington University.
+                    </p>
+                    <p>
+                        Today, my expertise sits at the intersection of Data Analytics, Machine Learning, and Generative
+                        AI. Whether I'm designing predictive models, building context-aware semantic
+                        search engines, or developing automated Power BI dashboards, my goal is to deliver scalable
+                        solutions that translate raw numbers into targeted business growth.
+                    </p>
+                    <p>
+                        Recently, I've had the privilege of working on exciting AI initiatives like an LLM-powered
+                        financial insights chatbot and a scalable RAG recommendation engine processing over 370GB of
+                        data. When I'm not untangling data pipelines or fine-tuning models, you might find me analyzing
+                        my own health data on a custom-built fitness dashboard!
+                    </p>
+                </div>
+                <!-- Profile Image -->
+                <div class="about-image-wrapper">
+                    <div class="glass-card profile-pic-container">
+                        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section reveal">
+            <h2 class="section-title">06. <span>Where I've Worked</span></h2>
+            <div class="timeline">
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">Data Analyst <span class="company">@ Community Dreams Foundation</span>
+                        </h3>
+                        <p class="duration">Feb 2026 - Present</p>
+                        <ul class="job-duties">
+                            <li>Build and maintain scalable data pipelines and SQL data models to analyze large
+                                operational and program datasets, enabling
+                                KPI tracking and data-driven strategic decision-making.
+                            </li>
+                            <li>Develop automated dashboards using Python and Power BI, performing statistical analysis
+                                and trend forecasting to optimize
+                                resource allocation and operational efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">GenAI Consulting Intern <span class="company">@ BCG</span>
+                        </h3>
+                        <p class="duration">Sep 2025 - Oct 2025</p>
+                        <ul class="job-duties">
+                            <li>Built an AI-powered financial insights chatbot by extracting and transforming 10-K/10-Q
+                                data using Python and pandas, implementing
+                                rule-based financial analysis workflows.
+                            </li>
+                            <li>Applied Generative AI and business intelligence frameworks to deliver structured,
+                                actionable insights for consulting use cases.
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">Data Analyst Intern <span class="company">@ Tata Groups</span>
+                        </h3>
+                        <p class="duration">Jun 2025 - Jul 2025</p>
+                        <ul class="job-duties">
+                            <li>Designed a predictive modeling framework achieving 70% classification accuracy for
+                                delinquency risk using structured analytical methodologies.
+                            </li>
+                            <li>Developed an AI-driven collections optimization strategy projected to reduce delinquency
+                                by 10–15%, ensuring data integrity, governance, and scalable implementation.
+                            </li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">Data Analyst Intern <span class="company">@ Quantium</span>
+                        </h3>
+                        <p class="duration">Feb 2025 - Mar 2025</p>
+                        <ul class="job-duties">
+                            <li>Analyzed 1000+ simulated transaction records to deliver targeted customer segmentation,
+                                identifying 3 key segments for
+                                tailored marketing strategies.
+                            </li>
+                            <li>Identified top 5 benchmark stores and executed uplift testing, simulating a layout
+                                change impact with a projected 5–8%
+                                improvement in category sales.
+                            </li>
+                            <li>Compiled 3 strategic actionable recommendation based on data insights to assist in
+                                optimizing store layout.
+                            </li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">App Developer Intern <span class="company">@ Exposys Data Labs</span>
+                        </h3>
+                        <p class="duration">Nov 2021 - Dec 2021</p>
+                        <ul class="job-duties">
+                            <li>Built a full-stack social networking application with real-time messaging,
+                                connecting
+                                users with shared interests.
+                            </li>
+                            <li>Designed MongoDB schemas and optimized database queries for user profiles and feed
+                                retrieval, improving query performance by 35%.
+                            </li>
+                            <li>Implemented responsive React.js frontend and Node.js/Express backend, reducing page
+                                load
+                                time from 4s to 1.2s.
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 5-->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">Full-stack Developer Intern <span class="company">@
+                                LetsGrowMore</span>
+                        </h3>
+                        <p class="duration">Sep 2021 - Oct 2021</p>
+                        <ul class="job-duties">
+                            <li>Built responsive frontend interfaces using HTML, CSS, and React, improving Core Web
+                                Vitals for key user flows.
+                            </li>
+                            <li>Implemented secure user authentication and booking workflows, reducing form
+                                abandonment
+                                by 22% and improving conversion.
+                            </li>
+                            <li>Optimized UI performance through code profiling and refactoring, reducing bundle
+                                size by
+                                18%.
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 6 -->
+                <div class="timeline-item">
+                    <div class="glass-card experience-card">
+                        <h3 class="job-title">App Developer Intern <span class="company">@ The Sparks
+                                Foundation</span>
+                        </h3>
+                        <p class="duration">Jun 2021 - Jul 2021</p>
+                        <ul class="job-duties">
+                            <li>Engineered a bank transfer Android app with secure authentication and transaction
+                                processing.
+                            </li>
+                            <li>Designed SQL database schema for efficient user and transaction management, enabling
+                                secure authentication and reliable transaction processing.
+                            </li>
+                            <li>Achieved 99.8% uptime through rigorous testing and optimization, reducing crash
+                                rates by
+                                45% in deployment.
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section reveal">
+            <h2 class="section-title">03. <span>Education</span></h2>
+            <div class="grid-2-col">
+
+                <!-- Education Item 1 -->
+                <div class="glass-card education-card">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Master's in Data Analytics</h3>
+                    <p class="university">The George Washington University</p>
+                    <p class="grad-year">Graduated: Dec 2025</p>
+                    <p class="edu-details">Relevant Coursework: Machine Learning, Deep Learning, Big Data Analytics,
+                        Statistical Modeling, Data Compression</p>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="glass-card education-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <h3>Bachelor's in Computer Science and Engineering</h3>
+                    <p class="university">Sri Venkateswara College of Engineering</p>
+                    <p class="grad-year">Graduated: May 2023</p>
+                    <p class="edu-details">Relevant Coursework: Algorithms, Data Structures, Software Engineering,
+                        Database Systems.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section reveal">
+            <h2 class="section-title">04. <span>Core Competencies</span></h2>
+
+            <div class="skills-container">
+                <div class="glass-card skill-category">
+                    <h3><i class="fas fa-robot"></i> AI & Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Generative AI / LLMs</li>
+                        <li>Natural Language Processing</li>
+                        <li>Computer Vision</li>
+                        <li>TensorFlow / PyTorch</li>
+                        <li>Scikit-Learn</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Data Analytics</h3>
+                    <ul class="skill-list">
+                        <li>Data Visualization (Tableau, PowerBI)</li>
+                        <li>Statistical Analysis</li>
+                        <li>A/B Testing</li>
+                        <li>Predictive Modeling</li>
+                        <li>Dash / Streamlit</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Languages & Tools</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>R</li>
+                        <li>JavaScript / HTML / CSS</li>
+                        <li>Git / Docker / AWS</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card skill-category">
+                    <h3><i class="fas fa-briefcase"></i> Business Acumen</h3>
+                    <ul class="skill-list">
+                        <li>Product Analytics</li>
+                        <li>KPI Dashboarding</li>
+                        <li>Stakeholder Communication</li>
+                        <li>Agile Methodologies</li>
+                        <li>Strategic Planning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section reveal">
+            <h2 class="section-title">05. <span>Featured Projects</span></h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranavparth/Global-EV-Market-Analysis-using-Power-BI"
+                                aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/Pranavparth/Global-EV-Market-Analysis-using-Power-BI"
+                                aria-label="External Link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Global-EV Market Analysis System</h3>
+                    <div class="project-description">
+                        <p>Built a Power BI star-schema analytics system with optimized DAX models to track EV adoption
+                            trends, improving reporting efficiency by 40% and reducing manual analysis by 50%.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>Power BI</li>
+                        <li>DAX</li>
+                        <li>Data Modeling</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/orgs/Eidetek/repositories" aria-label="GitHub Link"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://github.com/orgs/Eidetek/repositories" aria-label="External Link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Eidetik: A Contextual Memory Assistant</h3>
+                    <div class="project-description">
+                        <p>Developed an AI-powered contextual memory assistant that transforms static documents into a
+                            secure, searchable conversational knowledge base using semantic search and LLM-driven
+                            retrieval.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>LLMs</li>
+                        <li>Semantic Search</li>
+                        <li>Vector Databases</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranavparth/Product-Recommendation-system"
+                                aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/Pranavparth/Product-Recommendation-system"
+                                aria-label="External Link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Vector-Based Product Recommendation Engine</h3>
+                    <div class="project-description">
+                        <p>Built a scalable RAG-based recommendation engine processing 373GB of Amazon data, leveraging
+                            OpenAI embeddings and Pinecone to enable 1M+ vector similarity search with 30% faster
+                            retrieval.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>OpenAI Embeddings</li>
+                        <li>Pinecone</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranavparth/fitness-tracker" aria-label="GitHub Link"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://github.com/Pranavparth/fitness-tracker" aria-label="External Link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Fitness & Health Analytics Tracker</h3>
+                    <div class="project-description">
+                        <p>Built a full-stack, cloud-hosted health analytics platform that syncs Apple Watch data via
+                            automated ETL pipelines, calculates real-time BMI and caloric deficits, and visualizes
+                            fitness trends through an interactive Dash dashboard.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>Dash & Plotly</li>
+                        <li>Sql - Supabase</li>
+                        <li>Render</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section reveal contact-section">
+            <h2 class="section-title center-title">06. <span>What's Next?</span></h2>
+            <h2 class="contact-heading">Get In Touch</h2>
+            <p class="contact-text">
+                Currently looking for new opportunities in AI/ML and Data Analytics.
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <a href="mailto:pranav.parth2510@gmail.com" class="btn-primary contact-btn">Say Hello</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Pranavparth" target="_blank" aria-label="GitHub"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/pranavparth/" target="_blank" aria-label="LinkedIn"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <!-- Add other socials like Kaggle, Medium, etc. -->
+        </div>
+        <p>Built by Pranav Parthasarathy &copy; <span id="2026"></span></p>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
